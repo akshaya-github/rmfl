@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> RMFL recruitment</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <form>
+  <div class="Header">
+    <img src="images/rmfllogo.png" alt="Rmfl_Logo">
+  </div>
+  <div class=head>
+    <h1>Application form for Officer cadre recruitment </h1>
+  </div>
+
+  <!-- /****************************post applied section********************************************/ -->
+
+  <div class="post-applied">
+
+    <form class="first-section" action="index.html" method="post">
+
+      <h3> POST APPLIED FOR </h3>
+      <label for="Division"> Division</label>
+      <select name="Division" id="Division" required>
+        <option value="blank"> </option>
+        <option value="Acts">Accounts and Audit </option>
+        <option value="TMD">Technology Management</option>
+        <option value="LRD">Legal and Recovery</option>
+        <option value="PAD">Personal Administration</option>
+        <option value="RMD">Risk Management</option>
+        <option value="ID">Inspection</option>
+        <option value="ZH">Zonal Heads</option>
+      </select>
+
+      <label for="Cadre"> Cadre</label>
+      <select name="Cadre" id="Cadre" required>
+        <option value="blank"> </option>
+        <option value="AGM">Assistant General Manager </option>
+        <option value="DM">Deputy Manager</option>
+        <option value="M">Manager</option>
+      </select>
+      <br><br>
+    </form>
+  </div>
+
+  <!-- /***************************************personal-details*********************************/ -->
+  <div class="personal-contact">
+    <form class="personal-form">
+    <h3> PERSONAL DETAILS </h3>
+    <label for="Name">
+      <bold>Name*</bold>
+    </label>
+    <input type="text" name="" placeholder="First Name" required>
+    <input type="text" name="" placeholder="Middle Name">
+    <input type="text" name="" placeholder="Last Name"> <br><br>
+    <label for="dob"> Date of Birth*</label>
+    <input type="date" name="" value="" required>
+    <label for="Age"> Age*</label>
+    <input type="number" name="" value="" placeholder="Please specify your age" required><br><br>
+    <p> Address for Communication </p>
+    <label for="house number">Flat Number/House Number</label>
+    <input type="text" name="" value=""><br><br>
+    <label for="apname"> Apartment name</label>
+    <input type="text" name="" value=""><br> <br>
+
+    <label for="strtname"> Street Name</label>
+    <input type="text" name="" value=""><br><br>
+    <label for="Area"> Area</label>
+    <input type="text" name="" value=""><br><br>
+    <label for="District"> District</label>
+    <input type="text" name="" value=""><br><br>
+    <label for="State"> State </label>
+    <input type="text" name="" value="">
+    <label for="pin"> Pincode*</label>
+    <input type="Number" name="" value="" required><br><br>
+    <label for="pan"> Pan Number*</label>
+    <input type="text" name="" value="" placeholder="Your pan number" required><br><br>
+    <label for="Category"> Category*</label>
+    <select name="Category" id="Category" required>
+      <option value="Blank"> </option>
+      <option value="BC">BC </option>
+      <option value="MBC">MBC</option>
+      <option value="OC">OC</option>
+      <option value="SC">SC</option>
+      <option value="ST">ST</option>
+</select><br><br>
+  </form>
+  </div>
+
+<!-- /************************************************contact-details section************************************************/ -->
+
+  <div class="contact_details">
+    <form class="personal-form">
+    <h3> CONTACT DETAILS</h3>
+    <p> Telephone number</p>
+    <input type="Number" name="" value="" placeholder="With STD code">
+    <p> Mobile number*</p>
+    <input type="number" name="" value="" placeholder="Your mobile number" required>
+    <p> Alternate Mobile number</p>
+    <input type="number" name="" value="" placeholder="Alternate mobile number">
+    <p> Email id*</p>
+    <input type="email" name="" value="" placeholder="Enter valid email" required>
+    <br><br>
+  </form>
+  </div>
+<!-- /************************************************Family-details section**********************************************/ -->
+
+  <div class="family-details">
+<form class="personal-form" action="index.html" method="post">
+      <h3> FAMILY DETAILS </h3>
+      <h4> Father</h4>
+      <label for="n"> Name</label>
+      <input type="text" name="" value="">&nbsp; &nbsp;&nbsp;
+      <label for="dob"> Date of Birth</label>
+      <input type="date" name="" value="">&nbsp;&nbsp;&nbsp;
+      <label for="education"> Education</label>
+      <input type="text" name="" value="">&nbsp;&nbsp;&nbsp;
+      <label for="occupation"> Occupation</label>
+      <input type="text" name="" value=""><br><br>
+
+      <h4> Mother</h4>
+      <label for="n"> Name</label>
+      <input type="text" name="" value="">
+      <label for="dob"> Date of Birth</label>
+      <input type="date" name="" value="">
+      <label for="education"> Education</label>
+      <input type="text" name="" value="">
+      <label for="occupation"> Occupation</label>
+      <input type="text" name="" value=""><br><br>
+
+      <h4> Spouse</h4>
+      <label for="n"> Name</label>
+      <input type="text" name="" value="">
+      <label for="dob"> Date of Birth</label>
+      <input type="date" name="" value="">
+      <label for="education"> Education</label>
+      <input type="text" name="" value="">
+      <label for="occupation"> Occupation</label>
+      <input type="text" name="" value=""><br><br>
+
+      <h4> Children</h4>
+      <label for="n"> Name</label>
+      <input type="text" name="" value="">
+      <label for="dob"> Date of Birth</label>
+      <input type="date" name="" value="">
+      <label for="education"> Education</label>
+      <input type="text" name="" value="">
+      <label for="occupation"> Occupation</label>
+      <input type="text" name="" value="">
+    </form>
+  </div>
+
+  <!-- /***********************************Academic-details Section**********************************************/ -->
+
+<div class="academic_details">
+  <form class="personal-form" action="index.html" method="post">
+  <h3> ACADEMIC DETAILS</h3>
+  <table cellspacing=10px>
+    <thead>
+    <tr>
+      <td> No</td>
+      <td> Examinations passed</td>
+      <td> Year of Passing</td>
+      <td> Board/University/Institution</td>
+      <td> Marks (%)</td>
+      <td> Stream</td>
+
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td><input type="text" name="" value="" </td>
+        <td><input type="text" name="" value="" </td>
+          <td><input type="text" name="" value="" </td>
+            <td><input type="text" name="" value="" </td>
+              <td><input type="text" name="" value="" </td>
+                <td><input type="text" name="" value="" </td>
+
+    </tr>
+    <tr>
+      <td><input type="text" name="" value="" </td>
+        <td><input type="text" name="" value="" </td>
+          <td><input type="text" name="" value="" </td>
+            <td><input type="text" name="" value="" </td>
+              <td><input type="text" name="" value="" </td>
+                <td><input type="text" name="" value="" </td>
+
+    </tr>
+    <tr>
+      <td><input type="text" name="" value="" </td>
+        <td><input type="text" name="" value="" </td>
+          <td><input type="text" name="" value="" </td>
+            <td><input type="text" name="" value="" </td>
+              <td><input type="text" name="" value="" </td>
+                <td><input type="text" name="" value="" </td>
+
+    </tr>
+    <tr>
+      <td><input type="text" name="" value="" </td>
+        <td><input type="text" name="" value="" </td>
+          <td><input type="text" name="" value="" </td>
+            <td><input type="text" name="" value="" </td>
+              <td><input type="text" name="" value="" </td>
+                <td><input type="text" name="" value="" </td>
+
+    </tr>
+    <tr>
+      <td><input type="text" name="" value="" </td>
+        <td><input type="text" name="" value="" </td>
+          <td><input type="text" name="" value="" </td>
+            <td><input type="text" name="" value="" </td>
+              <td><input type="text" name="" value="" </td>
+                <td><input type="text" name="" value="" </td>
+
+    </tr>
+    </tbody>
+  </table>
+  </form>
+</div>
+
+
+
+
+
+<!-- /*****************************Language Proficiency Section***************************************/ -->
+<div class="language">
+  <form class="personal-form" action="index.html" method="post">
+    <h3> LANGUAGE PROFICIENCY</h3>
+  <table cellspacing=10px>
+    <thead>
+      <tr>
+        <td> Language</td>
+        <td>Read</td>
+        <td> Write</td>
+        <td> Speak</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <input type="Text"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+
+      </tr>
+      <tr>
+        <td> <input type="Text"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+      </tr>
+      <tr>
+        <td> <input type="Text"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+      </tr>
+      <tr>
+        <td> <input type="Text"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+        <td> <input type="radio"></td>
+
+      </tr>
+    </tbody>
+  </table>
+</form>
+</div>
+
+<!-- /******************************Other Achievements***********************************************/ -->
+
+<div class="other Achievements">
+  <form class="personal-form" action="index.html" method="post">
+    <h3> OTHER ACHIEVEMENTS</h3>
+    <table cellspacing=20px>
+      <thead>
+        <tr>
+          <td> No</td>
+          <td> Title</td>
+          <td> Level</td>
+          <td>Award/Certificate/Scholarship Won</td>
+          <td> Proficiency in Games/Sports</td>
+          <td> Proficiencyin Literary work/Art/Culture</td>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> 1 </td>
+            <td> <input type="text"> </td>
+            <td> School </td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+
+          </tr>
+          <tr>
+            <td> 2 </td>
+            <td> <input type="text"> </td>
+            <td> College </td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+
+          </tr>
+          <tr>
+            <td> 3 </td>
+            <td> <input type="text"> </td>
+            <td> University </td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+
+          </tr>
+          <tr>
+            <td> 4 </td>
+            <td> <input type="text"> </td>
+            <td> Professional Course </td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    </div>
+
+<!-- /************************************Professional-experience section***********************************/ -->
+<div class="professional_experience">
+  <form class="personal-form" action="index.html" method="post">
+<h3> PROFESSIONAL EXPERIENCE</h3>
+<table cellspacing=10px>
+  <thead>
+    <tr>
+      <td>S.No</td>
+      <td>Organization </td>
+      <td> Position </td>
+      <td> From </td>
+      <td> To </td>
+      <td>Gross Monthly Pay(in Rs.) </td>
+      <td> Place </td>
+      <td> Reason for Leaving</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> 1 </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="date"> </td>
+      <td> <input type="date"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+
+    </tr>
+    <tr>
+      <td> 2 </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="date"> </td>
+      <td> <input type="date"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+
+    </tr>
+    <tr>
+      <td> 3 </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="date"> </td>
+      <td> <input type="date"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+
+    </tr>
+    <tr>
+      <td> 4 </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="date"> </td>
+      <td> <input type="date"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+
+    </tr>
+    <tr>
+      <td> 5 </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="Text"> </td>
+      <td> <input type="date"> </td>
+      <td> <input type="date"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+    <td> <input type="Text"> </td>
+
+    </tr>
+  </tbody>
+</table>
+</form>
+</div>
+
+<!-- others -->
+<div>
+  <form class="personal-form" action="index.html" method="post">
+<p> Are you Employed in any of the Repco Group Of Organization?</p>
+<label for="Yes"> yes</label>
+<input type="Checkbox" name="" value="">
+<label for="No"> No</label>
+<input type="checkbox" name="" value="">
+<p> If Yes, Do you have a NOC?</p>
+<label for="Yes"> yes</label>
+<input type="Checkbox" name="" value="">
+<label for="No"> No</label>
+<input type="checkbox" name="" value="">
+<p> If yes, attach the scanned copy of NOC</p>
+<input type="file" name="" value="">
+<p> Time needed to join(days), if Selected</p>
+<input type="text" name="" value="">
+<p> Preferred Work Location</p>
+<label for="Primary"> Primary</label>
+<select name="Primary" id="Primary" required>
+  <option value="blank"> </option>
+  <option value="Chennai">Ariyalur (AR) </option>
+  <option value="Thanjavur">Chengalpattu (CGL)</option>
+  <option value="Mayiladuthurai">Chennai (CH)</option>
+  <option value="Chennai">Coimbatore (CO) </option>
+  <option value="Chennai">Cuddalore (CU) </option>
+  <option value="Chennai">Dharmapuri (DH) </option>
+  <option value="Chennai">Dindigul (DI) </option>
+  <option value="Chennai"> Erode (ER) </option>
+  <option value="Chennai"> Kallakurichi (KL) </option>
+  <option value="Chennai"> Kancheepuram (kC) </option>
+  <option value="Chennai"> KanyaKumari (KK) </option>
+  <option value="Chennai"> Karur (KR)</option>
+  <option value="Chennai"> Krishnagiri (KR) </option>
+  <option value="Chennai"> Madurai (MDU) </option>
+  <option value="Chennai"> Mayiladuthurai</option>
+  <option value="Chennai">Dharmapuri (DH) </option>
+  <option value="Chennai"> Nagapattinam (NG) </option>
+  <option value="Chennai"> Namakkal (NM) </option>
+  <option value="Chennai"> Nilgiris(NI)</option>
+  <option value="Chennai"> Perambalur (PE)</option>
+  <option value="Chennai"> Pudukkottai (PU) </option>
+  <option value="Chennai"> Ramanathapuram (RA)</option>
+  <option value="Chennai"> Ranipet (RN) </option>
+  <option value="Chennai"> Salem (SA) </option>
+  <option value="Chennai"> Sivagangai (SI) </option>
+  <option value="Chennai"> Tenkasi (TS) </option>
+  <option value="Chennai"> Thanjavur (TJ) </option>
+  <option value="Chennai"> Theni (TH) </option>
+  <option value="Chennai"> Thoothukudi (TK)</option>
+  <option value="Chennai"> Tiruchirappalli (TC) </option>
+  <option value="Chennai"> Tirunelveli (TI)</option>
+  <option value="Chennai"> Tirupattur (TU) </option>
+  <option value="Chennai"> Tiruppur (TP)</option>
+  <option value="Chennai"> Tiruvallur(TL) </option>
+  <option value="Chennai"> Tiruvannamalai (TV) </option>
+  <option value="Chennai"> Tiruvarur(TR) </option>
+  <option value="Chennai"> Vellore (VE) </option>
+  <option value="Chennai"> Villupuram (VL) </option>
+  <option value="Chennai"> Viruthunagar (VR) </option>
+</select>
+
+
+<label for="Secondary"> Secondary</label>
+<select name="Primary" id="Primary" required>
+  <option value="blank"> </option>
+  <option value="Chennai">Ariyalur (AR) </option>
+  <option value="Thanjavur">Chengalpattu (CGL)</option>
+  <option value="Mayiladuthurai">Chennai (CH)</option>
+  <option value="Chennai">Coimbatore (CO) </option>
+  <option value="Chennai">Cuddalore (CU) </option>
+  <option value="Chennai">Dharmapuri (DH) </option>
+  <option value="Chennai">Dindigul (DI) </option>
+  <option value="Chennai"> Erode (ER) </option>
+  <option value="Chennai"> Kallakurichi (KL) </option>
+  <option value="Chennai"> Kancheepuram (kC) </option>
+  <option value="Chennai"> KanyaKumari (KK) </option>
+  <option value="Chennai"> Karur (KR)</option>
+  <option value="Chennai"> Krishnagiri (KR) </option>
+  <option value="Chennai"> Madurai (MDU) </option>
+  <option value="Chennai"> Mayiladuthurai</option>
+  <option value="Chennai">Dharmapuri (DH) </option>
+  <option value="Chennai"> Nagapattinam (NG) </option>
+  <option value="Chennai"> Namakkal (NM) </option>
+  <option value="Chennai"> Nilgiris(NI)</option>
+  <option value="Chennai"> Perambalur (PE)</option>
+  <option value="Chennai"> Pudukkottai (PU) </option>
+  <option value="Chennai"> Ramanathapuram (RA)</option>
+  <option value="Chennai"> Ranipet (RN) </option>
+  <option value="Chennai"> Salem (SA) </option>
+  <option value="Chennai"> Sivagangai (SI) </option>
+  <option value="Chennai"> Tenkasi (TS) </option>
+  <option value="Chennai"> Thanjavur (TJ) </option>
+  <option value="Chennai"> Theni (TH) </option>
+  <option value="Chennai"> Thoothukudi (TK)</option>
+  <option value="Chennai"> Tiruchirappalli (TC) </option>
+  <option value="Chennai"> Tirunelveli (TI)</option>
+  <option value="Chennai"> Tirupattur (TU) </option>
+  <option value="Chennai"> Tiruppur (TP)</option>
+  <option value="Chennai"> Tiruvallur(TL) </option>
+  <option value="Chennai"> Tiruvannamalai (TV) </option>
+  <option value="Chennai"> Tiruvarur(TR) </option>
+  <option value="Chennai"> Vellore (VE) </option>
+  <option value="Chennai"> Villupuram (VL) </option>
+  <option value="Chennai"> Viruthunagar (VR) </option>
+</select>
+
+<label for=" Tertiary"> Tertiary</label>
+<select name="Primary" id="Primary" required>
+  <option value="blank"> </option>
+  <option value="Chennai">Ariyalur (AR) </option>
+  <option value="Thanjavur">Chengalpattu (CGL)</option>
+  <option value="Mayiladuthurai">Chennai (CH)</option>
+  <option value="Chennai">Coimbatore (CO) </option>
+  <option value="Chennai">Cuddalore (CU) </option>
+  <option value="Chennai">Dharmapuri (DH) </option>
+  <option value="Chennai">Dindigul (DI) </option>
+  <option value="Chennai"> Erode (ER) </option>
+  <option value="Chennai"> Kallakurichi (KL) </option>
+  <option value="Chennai"> Kancheepuram (kC) </option>
+  <option value="Chennai"> KanyaKumari (KK) </option>
+  <option value="Chennai"> Karur (KR)</option>
+  <option value="Chennai"> Krishnagiri (KR) </option>
+  <option value="Chennai"> Madurai (MDU) </option>
+  <option value="Chennai"> Mayiladuthurai</option>
+  <option value="Chennai">Dharmapuri (DH) </option>
+  <option value="Chennai"> Nagapattinam (NG) </option>
+  <option value="Chennai"> Namakkal (NM) </option>
+  <option value="Chennai"> Nilgiris(NI)</option>
+  <option value="Chennai"> Perambalur (PE)</option>
+  <option value="Chennai"> Pudukkottai (PU) </option>
+  <option value="Chennai"> Ramanathapuram (RA)</option>
+  <option value="Chennai"> Ranipet (RN) </option>
+  <option value="Chennai"> Salem (SA) </option>
+  <option value="Chennai"> Sivagangai (SI) </option>
+  <option value="Chennai"> Tenkasi (TS) </option>
+  <option value="Chennai"> Thanjavur (TJ) </option>
+  <option value="Chennai"> Theni (TH) </option>
+  <option value="Chennai"> Thoothukudi (TK)</option>
+  <option value="Chennai"> Tiruchirappalli (TC) </option>
+  <option value="Chennai"> Tirunelveli (TI)</option>
+  <option value="Chennai"> Tirupattur (TU) </option>
+  <option value="Chennai"> Tiruppur (TP)</option>
+  <option value="Chennai"> Tiruvallur(TL) </option>
+  <option value="Chennai"> Tiruvannamalai (TV) </option>
+  <option value="Chennai"> Tiruvarur(TR) </option>
+  <option value="Chennai"> Vellore (VE) </option>
+  <option value="Chennai"> Villupuram (VL) </option>
+  <option value="Chennai"> Viruthunagar (VR) </option>
+</select><br><br>
+<label for="Repartriate"> Whether Repartriate?</label>
+<label for="Yes"> Yes</label>
+<input type="checkbox" name="" value="">
+<label for="No"> No</label>
+<input type="checkbox" name="" value="">
+</form>
+</div>
+
+<!-- /*****************************Refereneces Section************************************/ -->
+<div class="references">
+  <form class="personal-form" action="index.html" method="post">
+    <h3>REFERENCES</h3>
+    <table cellspacing=10px>
+      <thead>
+        <tr>
+          <td> S.no </td>
+          <td>Name</td>
+          <td>Organization</td>
+          <td> Designation</td>
+          <td> Contact Number</td>
+          <td> Official email-id</td>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><input type="Text"></td>
+          <td><input type="Text"></td>
+          <td><input type="Text"></td>
+          <td><input type="Number"></td>
+          <td><input type="email"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><input type="Text"></td>
+          <td><input type="Text"></td>
+          <td><input type="Text"></td>
+          <td><input type="Number"></td>
+          <td><input type="email"></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+
+<!-- /**************************other-info*****************************/ -->
+<div class="other_info">
+<form class="personal-form" action="index.html" method="post">
+  <h3> OTHER INFORMATION</h3>
+<p> Whether you are known/related to anybody working in any Repco group of organization:</p>
+<label for="Yes"> Yes</label>
+<input type="Radio" name="" value="">
+<label for=" NO"> No</label>
+<input type="Radio" name="" value="">
+<p> If Yes, Give Details</p>
+<table cellspacing=10px>
+  <thead>
+    <tr>
+      <td> S.No</td>
+      <td> Name </td>
+      <td> Organization</td>
+      <td> Designation</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> 1 </td>
+      <td> <input type="Text"></td>
+        <td> <input type="Text"></td>
+          <td> <input type="Text"></td>
+    </tr>
+    <tr>
+      <td> 2 </td>
+      <td> <input type="Text"></td>
+        <td> <input type="Text"></td>
+          <td> <input type="Text"></td>
+    </tr>
+    <tr>
+      <td> 3 </td>
+      <td> <input type="Text"></td>
+        <td> <input type="Text"></td>
+          <td> <input type="Text"></td>
+    </tr>
+  </tbody>
+</table>
+<p>Any other information? </p>
+<textarea name="message" rows="8" cols="80"></textarea>
+</form>
+</div>
+
+<!-- /*********************PHOTO-SIGN UPLOAD SECTION*******************************/ -->
+<div class="photo-sign">
+  <form class="personal-form" action="index.html" method="post">
+    <h3> PHOTO/SIGNATURE UPLOAD</h3>
+    <label for="Photo"> Photo</label><br><br>
+    <input type="file" name="" value=""><br><br>
+    <label for="sign"> Signature</label><br><br>
+    <input type="file" name="" value="">
+  </form>
+</div>
+
+<!-- /************************DECLARATION*********************************/ -->
+
+<div class="Declaration">
+  <form class="personal-form" action="index.html" method="post">
+    <h3> DECLARATION</h3>
+    <input type="checkbox" name="" value="">
+    <p>I hereby declare that the above information is correct to the best of my knowledge & belief. In case any of the above information is found incorrect at a later date, I’ll abide by the Company decision/disciplinary action taken in that regard</p>
+  </form>
+</div><br><br>
+
+<a class="btn" href="mailto:vandanaakshaya2@gmail.com"> Submit</a>
+
+
+
+
+</form>
+</body>
+
+</html>
